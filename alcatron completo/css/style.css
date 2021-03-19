@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+body,
+input,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #6b0acb;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3.2rem;
+}
+
+header div,
+header li,
+header a,
+header span {
+    background: transparent;
+}
+
+header span {
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logButton {
+    color: #fff;
+    background: rgba(44, 44, 44, 0.514);
+    padding: 0.8rem 2rem;
+}
+
+#menuHeader a {
+    color: #fff;
+    padding: 0.5rem;
+    font-weight: 700;
+    border-left: 1px solid #35353556;
+    border-right: 1px solid #35353556;
+}
+
+/* header end */
+
+nav {
+    padding: 1.8rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav div {
+    display: flex;
+}
+
+#main {
+    width: 93%;
+}
+
+#logo {
+    color: rgb(29, 29, 29);
+    flex-flow: column wrap;
+}
+
+#logo h1 {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+/* menu drogdown */
+
+.dropbtn {
+    color: rgb(29, 29, 29);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(29, 29, 29, 0.678);
+    color: #fff;
+}
+
+/* drogdown menu end */
+
+.carousel img{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 900px;
+    height: 300px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+main article, main div, main p, main strong, main a {
+    background: #812faf;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1.5px solid #cccccc;
+    border-left: 1.5px solid #cccccc;
+    border-right: 1.5px solid #cccccc;
+    border-bottom: 1.5px solid #812faf;
+}
+
+main article div {
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+main article div a {
+    background: #fff;
+    width: 100%;
+    padding: 1rem;
+    color: rgb(145, 145, 145);
+}
+
+.saiba {
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+/* end main */
+
+footer{
+    margin-top: 2rem;
+    display: flex;
+    background: #812faf;
+    justify-content: space-between;
+}
+
+footer div, footer h2, footer section {
+    background: #8a56b1;
+}
+
+footer section {
+    background: #8c01e8;
+    color: #b1b1b1;
+
+    padding: 0.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    border-radius: 0.1rem;
+    border: 1px solid #7e7e7e;
+    margin-right: 0.5rem;
+
+}
+
+footer div {
+    display: flex;
+}
+
+#btnFooter{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#btnFooter h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#btnFooter div {
+    margin: 1rem;
+}
+
+footer div img {
+    width: 77px;
+    height: 77px;
+}
